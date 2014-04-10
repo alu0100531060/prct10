@@ -1,0 +1,156 @@
+\documentclass[spanish,a4paper,11pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[dvips]{graphicx}
+\usepackage[dvips]{epsfig}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{alltt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Format
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\oddsidemargin 5 mm
+\evensidemargin 5 mm
+\textwidth 15 cm
+\input{amssym.def}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% First Page 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagestyle{empty}
+\thispagestyle{empty}
+
+
+\newcommand{\HRule}{\rule{\linewidth}{1mm}}
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{0mm}
+\vspace*{\stretch{1}}
+
+\begin{center}
+\includegraphics[width=0.2\textwidth]{images/logotipo-secundario-ULL}\\[0.25cm]
+\end{center}
+
+\HRule
+\begin{center}
+        {\Huge El número Pi y su historia} \\[2.5mm] 
+        {\Huge Un número apasionante} \\[2.5mm]
+        {\Large Juan Jesús Dóniz Labrador} \\[5mm]
+        {\Large \textit{Grupo 3E }} \\[5mm]
+
+
+        {\em Técnicas Experimentales. $1^{er}$ curso. $2^{do}$ semestre} \\[5mm]
+        Lenguajes y Sistemas Informáticos \\[5mm]
+        Facultad de Matemáticas \\[5mm]
+        
+        Universidad de La Laguna \\
+\end{center}
+\HRule
+\vspace*{\stretch{2}}
+\begin{center}
+  La Laguna, \today 
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+El número$\pi$ es posiblemente la constante numérica más estudiada a lo largo de la historia.
+Su entorno, aunque en apariencia sólo a nivel matemático, ha trascendido las fronteras de esta disciplina y es así como ha
+suscitado el interés de hombres en diversas áreas del conocimiento. La revisión de su
+desarrollo histórico es, por tanto, una combinación amena de aspectos científicos,anecdóticos y culturales.
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section {Marco general}
+La historia del número $\pi$puede dividirse en tres períodos claramente establecidos, los cuales se diferencian entre sí por aspectos
+relacionados con el método, propósitos inmediatos y las herramientas científicas e intelectuales disponibles.
+
+El primer período cubre el tiempo transcurrido entre los primeros registros de determinaciones empíricas de la relación del perímetro de una
+circunferencia y su diámetro hasta la invención del cálculo diferencial e integral a mediados del siglo XVII.
+En este intervalo de tiempo se puede hablar de algunas aproximaciones de$\pi$ por parte de los Babilonios, los Egipcios y
+los Hebreos, pero esencialmente incluye los trabajos de los Griegos y algunas reglas empíricas encontradas en antiguos tratados
+matemáticos chinos e hindúes. A lo largo de este período, pero sobre todo en los siglos finales, aparece una gran cantidad de intentos
+por dar solución por medio de construcciones geométricas al célebre problema de la cuadratura del círculo: cómo construir un
+cuadrado cuya área sea exactamente igual a la de un círculo hecho con anterioridad,ayudándose sólo de regla y compás. Este
+problema es, por completo equivalente al conocido como de la rectificación del círculo, el cual consiste en construir una línea recta de
+igual longitud al perímetro de una circunferencia. En ambos casos puede verse implícito el valor numérico de $\pi$.
+En efecto, la historia de los diversos intentos por cuadrar el círculo, sus diferentes construcciones, el
+cálculo por consiguiente de áreas, son en esencia la misma historia del número.
+La imposibilidad de resolver el problema de la cuadratura sólo vino a comprobarse muchos siglos después; sin embargo, los intentos en
+este sentido, contribuyeron en su época a incrementar poco a poco la precisión en el cálculo de áreas e, implícitamente, el valor de $\pi$.
+
+El segundo período se inicia coincidiendo con el descubrimiento de esa herramienta esperada: el cálculo infinitesimal.
+Su duración se extiende por un lapso aproximado de un siglo, y se caracteriza por la aplicación de métodos analíticos poderosos para la
+determinación de expresiones para el cálculo de que, por lo general, incluían funciones trigonométricas en la forma de series
+convergentes, no pocas de ellas empíricas y muy ingeniosas, productos infinitos y fracciones continuas.
+
+El tercer período se extiende desde mediados del siglo XVIII hasta finales del siglo XIX, y se caracteriza por la atención dirigida a toda
+clase de investigaciones críticas sobre la verdadera naturaleza del número$\pi$ en sí mismo, considerado independiente de meras
+representaciones analíticas. En este período se reconoce a $\pi$como número irracional y trascendental, conduciendo por ende a
+conclusiones definitivas sobre el problema de la cuadratura del círculo.\cite{reif2011numero}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Diferentes periodos de la Geometría}
+Una vez ilustrado el panorama general, resulta apropiado para complementar esta breve
+información cronológica, hacer un recuento de aquellos momentos que podrían llamarse
+estelares en la apasionante historia de $\pi$.(vease la tabla\ref{tabla1})
+\subsection{Primer periodo}
+Las primeras trazas de la determinación de $\pi$ son encontradas en diferentes papiros
+de gran antigüedad, que a manera de catálogos incluían en las modalidades de
+escritura de las respectivas épocas, grupos de problemas y su correspondiente solución,
+reflejo del estado de las matemáticas de aquella cultura a la que pertenecen. El más \cite{refrhind}
+conocido de ellos es el llamado papiro de Rhind\footnote{En 1858 el escocés Henry Rhind fue a Egipto por motivos de salud y compró en Luxor dicho papiro}, 
+que data aproximadamente del año 1800 a. C., atribuido al escribano Ahmes.
+
+El Papiro de Ahmes, también conocido como Papiro Rhind, es un documento de carácter didáctico que contiene diversos problemas matemáticos.
+Está redactado en escritura hierática y mide unos seis metros de longitud por 32 cm de anchura.
+Se encuentra en buen estado de conservación. El texto, escrito durante el reinado de Apofis I, es copia de un documento del siglo XIX a. C. de época de Amenemhat III.(véase la figura \ref{papiro} )
+\begin{figure}[!th]
+\begin{center}
+\includegraphics[width=0.25\textwidth]{images/papiro_rhind.eps}
+\caption{papiro de Rhind}
+\label{papiro}
+\end{center}
+\end{figure}
+
+\subsection{Segundo periodo}
+El establecimiento de los fundamentos del cálculo diferencial e integral por parte de
+Newton y Leibniz durante la segunda mitad del siglo XVII, y los posteriores desarrollos en esta
+área abren, como se mencionó previamente en el marco general, la segunda parte de esta historia.
+
+\subsection{Tercer periodo}
+El tercer período de esta historia podría resumirse en las respuestas que se obtuvieron a
+la pregunta: ¿Cuál es el lugar de $\pi$ entre los números?. En efecto, los trabajos realizados
+durante este período se enfocaron principalmente a la investigación de la real naturaleza de $\pi$.
+Debido a la estrecha relación de este número con la constante $e$, la base de los logaritmos naturales, la
+investigación de los dos números fue llevada casi de manera simultánea.
+\begin{table}[!ht]
+\begin{center}
+\begin{tabular}{|l|c|c|}
+\hline
+Periodos & Comienzo & Final \\ \hline
+Primero & 1573 & 1706 \\ \hline
+Segundo & 1706 & 1776 \\ \hline
+Tercero & 1776 & 1840 \\ \hline
+\end{tabular}
+\end{center}
+\caption{Años entre los que se da cada periodo}
+\label{tabla1}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\addcontentsline{toc}{chapter}{Bibliografía}
+\bibliographystyle{plain}
+
+
+\bibliography{bib/references}
+\nocite{*}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
